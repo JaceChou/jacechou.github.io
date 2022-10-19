@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.51">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>Jace Chou's Blog</title><meta name="description" content="">
+    <link rel="modulepreload" href="/assets/app.8319a4cd.js"><link rel="modulepreload" href="/assets/404.html.fa22c010.js"><link rel="modulepreload" href="/assets/404.html.d2dc3323.js"><link rel="prefetch" href="/assets/index.html.88baaca9.js"><link rel="prefetch" href="/assets/index.html.6d61e1d1.js"><link rel="prefetch" href="/assets/index.html.c1d2b76c.js"><link rel="prefetch" href="/assets/index.html.b13af189.js"><link rel="prefetch" href="/assets/index.html.9250a2a2.js"><link rel="prefetch" href="/assets/index.html.28a1b8e8.js"><link rel="prefetch" href="/assets/index.html.abc21b48.js"><link rel="prefetch" href="/assets/index.html.f1c126bb.js"><link rel="prefetch" href="/assets/index.html.7fa4df24.js"><link rel="prefetch" href="/assets/index.html.5e26e7f4.js">
+    <link rel="stylesheet" href="/assets/style.96ee71b5.css">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>Looks like we&#39;ve got some broken links.</blockquote><a href="/" class="">Take me home</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/assets/app.8319a4cd.js" defer></script>
+  </body>
+</html>
